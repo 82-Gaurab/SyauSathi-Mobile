@@ -1,0 +1,7 @@
+{
+  "@@locale": "ne",
+  "helloWorld": "नमस्कार संसार",
+  "@helloWorld": {
+    "description": "ड्यासबोर्डमा देखाइने अभिवादन"
+  }
+}
