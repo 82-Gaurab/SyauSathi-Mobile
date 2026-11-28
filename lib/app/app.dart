@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:syau_sewa_mobile/core/localization/generated/app_localizations.dart';
+import 'package:syau_sewa_mobile/features/onboarding/presentation/screens/splash_screen.dart';
 import 'package:syau_sewa_mobile/l10n/l10n.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      locale: const Locale('en'),
+      locale: const Locale('ne'),
       localizationsDelegates: const [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
@@ -18,11 +19,7 @@ class MyApp extends StatelessWidget {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: L10n.all,
-      home: Scaffold(
-        body: SafeArea(
-          child: Center(child: Text(AppLocalizations.of(context)!.helloWorld)),
-        ),
-      ),
+      home: Scaffold(body: SafeArea(child: SplashScreen())),
     );
   }
 }

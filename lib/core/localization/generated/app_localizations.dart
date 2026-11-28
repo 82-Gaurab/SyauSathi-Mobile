@@ -103,6 +103,66 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Hello World'**
   String get helloWorld;
+
+  /// No description provided for @appName.
+  ///
+  /// In en, this message translates to:
+  /// **'Syau Sathi'**
+  String get appName;
+
+  /// No description provided for @appTagline.
+  ///
+  /// In en, this message translates to:
+  /// **'From the Himalayas, into farmers\' hands'**
+  String get appTagline;
+
+  /// No description provided for @poweredBy.
+  ///
+  /// In en, this message translates to:
+  /// **'INFOCARE'**
+  String get poweredBy;
+
+  /// No description provided for @chooseLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'भाषा छान्नुहोस्'**
+  String get chooseLanguage;
+
+  /// No description provided for @chooseLanguageSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your language'**
+  String get chooseLanguageSubtitle;
+
+  /// No description provided for @nepaliLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'नेपाली'**
+  String get nepaliLanguage;
+
+  /// No description provided for @englishLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get englishLanguage;
+
+  /// No description provided for @recommendedLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'सिफारिस गरिएको'**
+  String get recommendedLanguage;
+
+  /// No description provided for @continueNepali.
+  ///
+  /// In en, this message translates to:
+  /// **'अगाडि बढ्नुहोस्'**
+  String get continueNepali;
+
+  /// No description provided for @continueEnglish.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get continueEnglish;
 }
 
 class _AppLocalizationsDelegate

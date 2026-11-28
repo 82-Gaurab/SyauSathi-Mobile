@@ -3,5 +3,15 @@
   "helloWorld": "Hello World",
   "@helloWorld": {
     "description": "Greeting displayed on the dashboard"
-  }
+  },
+  "appName": "Syau Sathi",
+  "appTagline": "From the Himalayas, into farmers' hands",
+  "poweredBy": "INFOCARE",
+  "chooseLanguage": "भाषा छान्नुहोस्",
+  "chooseLanguageSubtitle": "Choose your language",
+  "nepaliLanguage": "नेपाली",
+  "englishLanguage": "English",
+  "recommendedLanguage": "सिफारिस गरिएको",
+  "continueNepali": "अगाडि बढ्नुहोस्",
+  "continueEnglish": "Continue"
 }

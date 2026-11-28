@@ -11,4 +11,34 @@ class AppLocalizationsNe extends AppLocalizations {
 
   @override
   String get helloWorld => 'नमस्कार संसार';
+
+  @override
+  String get appName => 'स्याउ साथी';
+
+  @override
+  String get appTagline => 'हिमालको काखबाट, किसानको हातमा';
+
+  @override
+  String get poweredBy => 'INFOCARE';
+
+  @override
+  String get chooseLanguage => 'भाषा छान्नुहोस्';
+
+  @override
+  String get chooseLanguageSubtitle => 'Choose your language';
+
+  @override
+  String get nepaliLanguage => 'नेपाली';
+
+  @override
+  String get englishLanguage => 'English';
+
+  @override
+  String get recommendedLanguage => 'सिफारिस गरिएको';
+
+  @override
+  String get continueNepali => 'अगाडि बढ्नुहोस्';
+
+  @override
+  String get continueEnglish => 'Continue';
 }

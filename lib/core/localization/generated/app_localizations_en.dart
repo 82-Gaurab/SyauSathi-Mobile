@@ -11,4 +11,34 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get helloWorld => 'Hello World';
+
+  @override
+  String get appName => 'Syau Sathi';
+
+  @override
+  String get appTagline => 'From the Himalayas, into farmers\' hands';
+
+  @override
+  String get poweredBy => 'INFOCARE';
+
+  @override
+  String get chooseLanguage => 'भाषा छान्नुहोस्';
+
+  @override
+  String get chooseLanguageSubtitle => 'Choose your language';
+
+  @override
+  String get nepaliLanguage => 'नेपाली';
+
+  @override
+  String get englishLanguage => 'English';
+
+  @override
+  String get recommendedLanguage => 'सिफारिस गरिएको';
+
+  @override
+  String get continueNepali => 'अगाडि बढ्नुहोस्';
+
+  @override
+  String get continueEnglish => 'Continue';
 }
